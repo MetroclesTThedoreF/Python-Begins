@@ -15,3 +15,4 @@ print(a.endswith("O")) # endswith checks if the string ends with the given strin
 print(a.startswith("$")) # startswith checks if the string starts with the given string 
 print(a.find("Kennedy")) # find returns the index of the first occurrence of the given string 
 print(a.index("Mark")) # index returns the index of the first occurrence of the given string if index is not found it raises an error but find returns -1 
+print(a.isalnum(())) # isalnum checks if the string is alphanumeric\)
