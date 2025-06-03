@@ -1,0 +1,1 @@
+# A dictionary is collection of key and value pairs
