@@ -10,3 +10,6 @@ del my_list[5]
 print(my_list)
 print(len(my_list))
 print(my_list.count('Rifat'))
+my_list[5]="Apple"
+print(my_list)
+# main difference between list and array is that array contains similar data types but list can contain mixture of data types 
