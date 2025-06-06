@@ -12,3 +12,16 @@ print(my_dictionary)
 names =['M','M','D']
 my_dict = {i: name for i, name in enumerate(names)}
 print(my_dict)
+
+
+# three list to dictionary : 
+list1=['Apple','Aster','Ape']
+list2=['Banana','Bougainvillea','Bear']
+list3=['Cherry','Camellia','Cow']
+for fruits,flowers,animals in zip(list1,list2,list3) : 
+ my_dict =   {
+        'fruits':fruits,
+        'flowers':flowers,
+        'animals':animals,
+    }
+ print(my_dict)
