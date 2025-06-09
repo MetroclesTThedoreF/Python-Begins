@@ -24,3 +24,19 @@ for number in range(min(x, len(fruits))):
 # Print all fruits using a for-each loop
 for fruit in fruits:
     print("I like", fruit)
+
+n = int(input("Enter a number : "))
+for i in range(n+1): 
+ print(i)
+
+a = int(input("Enter number a: "))
+b = int(input("Enter number b: "))
+c = int(input("Enter number c: "))
+d = int(input("Enter number d: "))
+e = int(input("Enter number e: "))
+my_list = [a,b,c,d,e]
+total = 0
+for n in my_list:
+   total += n
+   print(total)
+   #for each 'thing' in group: do something with the 'thing'
